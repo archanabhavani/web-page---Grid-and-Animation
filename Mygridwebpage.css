@@ -1,0 +1,40 @@
+
+*{
+	box-sizing: border-box;
+	font-family: "montserrat",sans
+ }
+.parent
+{
+	margin:10px;
+	display: grid;
+	grid-template-columns: repeat(3,200px);
+	grid-row-gap: 20px;
+	grid-column-gap: 10px;
+	background-color: white;
+	padding: 10px;
+	
+}
+img
+{
+	width: 100%;
+}
+
+.card
+{
+  padding: 10px;
+  background-color: black;
+ }
+
+ .card:hover{
+ background-color:white;
+ font-size: 20px;
+ }
+
+ body
+ {
+  display: grid;
+   justify-content: center;
+ }
+
+
+
